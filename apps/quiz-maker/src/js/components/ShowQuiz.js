@@ -2,6 +2,7 @@ import React from 'react';
 import Info from './Info';
 import Questions from './Questions';
 import NewQuestion from './NewQuestion';
+import HeaderAction from './HeaderAction';
 
 import 'jquery';
 
@@ -209,6 +210,55 @@ export default class ShowQuiz extends React.Component {
 		document.body.removeChild(element);
 	}
 
+	handlerSaveQuiz(){
+		const hostSave=process.env.hostSaveQuiz+this.state.apiInfo.slug+'?access_token='+process.env.token;
+
+		let json = {
+			info: {
+				slug: this.state.apiInfo.slug
+			},
+			questions: this.state.apiQuestions
+		}
+
+        fetch(hostSave, {
+            headers: {"content-type": "application/json"},
+            method: 'PUT',  
+            body: JSON.stringify(json)
+        })
+        .then((data)=> {  
+			if(data.status == 400){
+				this.setState({
+					messageFailure: 'The was an error saving the quiz'
+				});
+				setTimeout(()=>{
+					this.setState({
+						messageFailure: null
+					}); 
+				}, 2000)
+			}else{
+				this.setState({
+					messageSuccess: 'The quiz were save successfully'
+				});
+				setTimeout(()=>{
+					this.setState({
+						messageSuccess: null
+					}); 
+				}, 2000)
+			}
+        })  
+        .catch(()=> {  
+            this.setState({
+                messageFailure: 'The was an error saving the quiz'
+            });
+            setTimeout(()=>{
+                this.setState({
+                    messageFailure: null
+                }); 
+            }, 2000)
+		});
+		
+	}
+
 	render () {
 		
 		const results = this.state.apiQuestions.map((value, key) => {
@@ -257,30 +307,50 @@ export default class ShowQuiz extends React.Component {
 							}
 					});
 		return (
-			<div className="container-fluid p-0">
-				<button className="btn btn-primary download-btn" onClick={()=>this.download("quiz.json")}>
-					<i className="fas fa-download"></i> download progress
-				</button>
-    			<nav className="navbar navbar-dark bg-dark">
-    				<a className="navbar-brand" href="#">
-    					General Quiz Information
-    				</a>
-    			</nav>
-				<Info data={this.state.apiInfo} handleJsonInfo={(data, type) => this.getValueFromInfo(data, type)}/>
-    			<nav className="questions-nav navbar sticky-top navbar-dark bg-dark">
-    				<a className="navbar-brand" href="#">
-    					Questions
-    				</a>
-    				<div className="ml-auto">
-    					<NewQuestion onClick={this.handleNewQuestion.bind(this)}/>
-    				</div>
-    			</nav>
-                <div className="row">
-                    <div className="col-12 col-sm-10 col-md-8 col-xl-6 mx-auto">
-						{results}
-                    </div>
-                </div>
-            </div>
+			<div>
+				{
+					(this.state.messageSuccess) ? 
+					<div className="alert alert-success text-center mb-0">{this.state.messageSuccess}</div>
+					:
+					''
+				}
+				{
+					(this.state.messageFailure) ? 
+					<div className="alert alert-danger text-center mb-0">{this.state.messageFailure}</div>
+					:
+					''
+				}
+				<nav className="navbar fixed-top navbar-light bg-light">
+					<a className="navbar-brand" href="#">
+						<img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=breathecode,64" width="30" height="30" className="d-inline-block align-top mr-2" alt="" />
+						Quiz Maker - BreatheCode
+					</a>
+				</nav>
+				<div className="container-fluid p-0">
+					<HeaderAction 
+						downloadJson={()=>this.download("quiz.json")}
+						saveQuiz={()=>this.handlerSaveQuiz()}/>
+					<nav className="navbar navbar-dark bg-dark">
+						<a className="navbar-brand" href="#">
+							General Quiz Information
+						</a>
+					</nav>
+					<Info data={this.state.apiInfo} handleJsonInfo={(data, type) => this.getValueFromInfo(data, type)}/>
+					<nav className="questions-nav navbar sticky-top navbar-dark bg-dark">
+						<a className="navbar-brand" href="#">
+							Questions
+						</a>
+						<div className="ml-auto">
+							<NewQuestion onClick={this.handleNewQuestion.bind(this)}/>
+						</div>
+					</nav>
+					<div className="row">
+						<div className="col-12 col-sm-10 col-md-8 col-xl-6 mx-auto">
+							{results}
+						</div>
+					</div>
+				</div>
+			</div>
 		);
 	}
 }

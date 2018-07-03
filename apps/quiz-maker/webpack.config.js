@@ -1,5 +1,6 @@
 var webpack = require('webpack');
 var path = require('path');
+var Dotenv = require('dotenv-webpack');
 
 var BUILD_DIR = path.resolve(__dirname, 'public');
 var APP_DIR = path.resolve(__dirname, 'src/js');
@@ -57,5 +58,11 @@ module.exports = {
   devtool: 'source-map',
   devServer: {
     contentBase:  './dist',
-  }
+  },
+  plugins: [
+    new Dotenv({
+      path: '.env',
+      systemvars: true
+    })
+  ]
 };
