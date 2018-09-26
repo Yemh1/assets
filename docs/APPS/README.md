@@ -5,29 +5,27 @@
 1. [Checking](../apps/checkin/README.md): Use to track when people attends to our events.
 2. [Event Calendar](../apps/event-calendar/README.md): Listing with of all the breathecode events
 3. [/Markdown-Parser](../apps/markdown-parser/README.md): Displays the HTML version of a given markdown file.
-4.. [/NPS](../apps/nps/README.md): Display NPS surveys for BC users.
+4. [/NPS](../apps/nps/README.md): Display NPS surveys for BC users.
 5. [/Quiz](../apps/quiz/README.md): Allows BC students to ***take*** quizzes.
 6. [Quiz Maker](../apps/quiz-maker/README.md): Allows BC users to ***CREATE*** quizzes.
 7. [Quizzes](../apps/quizzes/README.md): :small_orange_diamond: ***DEPRECATED***, Old version of the Quiz app.
 8. [Remind](../apps/remind/README.md): Manages the signup, login and remind password within the BC platform. 
 9. [Replit](../apps/replit/README.md): Tracks all the replit classrooms and links for the BC platform.
 10. [Replit Editor](../apps/replit-editor/README.md): Creates and updates the replits links from breathecode cohorts.
-9. [Chatbot](../apps/chatbot/README.md): Chatbot app for slack
+11. [Video](../apps/video/README.md): Manages the signup, login and remind password within the BC platform.
 
-     this applications is pending for development
+#### :black_square_button: Apps Pending for development
+- [Chatbot](../apps/chatbot/README.md): Chatbot app for slack
 
-10. [Video](../apps/video/README.md):
-Manages the signup, login and remind password within the BC platform.
 
-11. [Status](../apps/status/README.md):
-Displays a status check of the entire BreatheCode platform.
+12. [Status](../apps/status/README.md): Displays a status check of the entire BreatheCode platform.
 
     **TODO:** this applications is pending for development
 
-10. [Screen](../apps/screen/README.md):
+13. [Screen](../apps/screen/README.md):
 Screens for academy events
 
-11. [Student External Profile (SEP)](../apps/sep/README.md):
+14. [Student External Profile (SEP)](../apps/sep/README.md):
 Search and display any student external profile
 
     **TODO:** this applications is pending for development
@@ -116,5 +114,5 @@ SYLLABUS-MAKER:
     "recharts": "^1.0.0-beta.10"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU1OTM0MjM4LC0xMzM5MDY3NjE0XX0=
+eyJoaXN0b3J5IjpbMTYzNDY3NTkzNywtMTMzOTA2NzYxNF19
 -->
