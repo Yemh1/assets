@@ -10,13 +10,13 @@ This directory contains several APIs needed to run the breathecode platform:
 5. [/Sounds](./sound/README.md): Sounds for games and tutorials.
 6. [/Events](./event/README.md): For the academy events and workshops (add, edit, delete, checking, etc).
 7. [/NPS](./nps/README.md): API implementation for Net Promoter Score
-9. [/VTutorials](./vtutorial/README.md): Use by the breathecode platform to enhance the **Video Tutorials** (captions, instructions, etc).
-10. [/Syllabus](./syllabus/README.md): All the syllabus available on the BC Platform
-11. [/Replit](./replit/README.md): All the replits available on the BC Platform
+8. [/VTutorials](./vtutorial/README.md): Use by the breathecode platform to enhance the **Video Tutorials** (captions, instructions, etc).
+9. [/Syllabus](./syllabus/README.md): All the syllabus available on the BC Platform
+10. [/Replit](./replit/README.md): All the replits available on the BC Platform
 12. [/Projects](./project/README.md): All the lessons included on projects.breatheco.de
-13. [/Img](./img/README.md): Database of images for tutorials, marketing, etc.
-14. [/Fake](./fake/README.md): A series of endpoints exposed for dummy calls on the breathecode tutorials and exercises
-15. [/Hooks](./hoos/README.md): Hooks used by 3rd party services like ActiveCampaign, Zapier, etc.
+12. [/Img](./img/README.md): Database of images for tutorials, marketing, etc.
+13. [/Fake](./fake/README.md): A series of endpoints exposed for dummy calls on the breathecode tutorials and exercises
+14. [/Hooks](./hooks/README.md): Hooks used by 3rd party services like ActiveCampaign, Zapier, etc.
 
 ##### Additional APIs:
 - [/Kill-The-Bug](./kill-the-bug/README.md): Great game to play with audiences interested in learning to code.
@@ -73,5 +73,5 @@ RewriteRule . index.php [L]
  }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNzgwMzUwM119
+eyJoaXN0b3J5IjpbLTE1MDM4NzAxODddfQ==
 -->
