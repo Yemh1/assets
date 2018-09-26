@@ -4,14 +4,14 @@
 
 This directory contains several APIs needed to run the breathecode platform:
 
-1. [/Credentials](./credentials/README.md): OAuth implementation on the BC Platform
+1. [/Credentials](./credentials_.md): OAuth implementation on the BC Platform
 3. [/Quizes](./quiz/README.md): Used by the breathecode platform quizes.
 4. [/Lessons](./lesson/README.md): All the lessons included on breathecode.
 5. [/Sounds](./sound/README.md): Sounds for games and tutorials.
-6. [/Events](./event/README.md): For the academy events and workshops
+6. [/Events](./event/README.md): For the academy events and workshops (add, edit, delete, checking, etc).
 7. [/NPS](./nps/README.md): API implementation for Net Promoter Score
 8. [/Kill-The-Bug](./kill-the-bug/README.md): Great game to play with audiences interested in learning to code.
-9. [/VTutorials](./vtutorial/README.md): Use by the breathecode platform to enhance the video tutorials (captions, instructions, etc).
+9. [/VTutorials](./vtutorial/README.md): Use by the breathecode platform to enhance the **Video Tutorials** (captions, instructions, etc).
 10. [/Syllabus](./syllabus/README.md): All the syllabus available on the BC Platform
 11. [/Replit](./replit/README.md): All the replits available on the BC Platform
 12. [/Projects](./project/README.md): All the lessons included on projects.breatheco.de
@@ -71,5 +71,5 @@ RewriteRule . index.php [L]
  }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTg3MTUwODBdfQ==
+eyJoaXN0b3J5IjpbODc2MDkwNTUxXX0=
 -->
