@@ -3,9 +3,6 @@
 # Table of contents for all the APPS inside assets.breatheco.de
 
 1. [Checking](../apps/checkin/README.md): Use to track when people attends to our events.
-
-    **TODO:** This applications is _pending for development_.
-    
 1.1 [Event Calendar](../apps/event-calendar/README.md):
 Listing with of all the breathecode events (uses the /apis/event service)
 
@@ -144,5 +141,5 @@ SYLLABUS-MAKER:
     "recharts": "^1.0.0-beta.10"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMzc1NTg2XX0=
+eyJoaXN0b3J5IjpbLTEzMzkwNjc2MTRdfQ==
 -->
