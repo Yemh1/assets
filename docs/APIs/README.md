@@ -23,8 +23,7 @@ This directory contains several APIs needed to run the breathecode platform:
 
 ### :black_square_button: API's Pending for development
 - [Resources](../apps/chatbot/README.md): We need an API to manage (GET, POST, PUT, DELETE) links to different resources around the classes.
-- [Status](../apps/status/README.md): Displays a status check of the entire BreatheCode platform.
-- [Student External Profile (SEP)](../apps/sep/README.md): Search and display any student external profile
+- [Bounties](../apps/status/README.md): Directory of possible contributions that students can make to the BreatheCode platform.
 
 ## Usage
 
@@ -78,5 +77,6 @@ RewriteRule . index.php [L]
  }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzOTA2ODUzLC0xNTAzODcwMTg3XX0=
+eyJoaXN0b3J5IjpbLTE1NjQzMzYxMzAsLTE1MDM4NzAxODddfQ
+==
 -->
