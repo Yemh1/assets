@@ -9,8 +9,8 @@ Most of the developments inside the BreatheCode's assets share the same stack of
 That is why we decided to create a small libraries or bundles to re-use in different developments.
 
 React projects have this vendor bundle available for use:
-| File path | 
-https://assets.breathecode.com/assets/js/vendor.bundle.js
+
+### React.js  File path: https://assets.breathecode.com/assets/js/vendor.bundle.js |
  ```
     "@4geeksacademy/react-flux-dash": "^1.1.8",
     "@fortawesome/fontawesome": "^1.1.4",
@@ -30,9 +30,9 @@ https://assets.breathecode.com/assets/js/vendor.bundle.js
     "react-polyfills": "0.0.1",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2"
-```
+``` |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5Njc0MDgxNiwtMTE0MDg0NzI2NSwtMT
-M0NzIyMzU4Ml19
+eyJoaXN0b3J5IjpbLTE0MTIxMDI5MzcsLTExNDA4NDcyNjUsLT
+EzNDcyMjM1ODJdfQ==
 -->
