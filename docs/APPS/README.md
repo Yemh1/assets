@@ -3,27 +3,13 @@
 # Table of contents for all the APPS inside assets.breatheco.de
 
 1. [Checking](../apps/checkin/README.md): Use to track when people attends to our events.
-1.1 [Event Calendar](../apps/event-calendar/README.md):
-Listing with of all the breathecode events (uses the /apis/event service)
-
-    **TODO:** This applications is _pending for development_.
-
-2. [/Markdown-Parser](../apps/markdown-parser/README.md):
-Displays the HTML version of a given markdown file.
-
-3. [/NPS](../apps/nps/README.md):
-Display NPS survays for BC users.
-
-4. [Quiz](../apps/quiz/README.md):
-Allows BC students to ***take*** quizzes.
-
-4. [Quiz Maker](../apps/quiz-maker/README.md):
-Allows BC users to ***CREATE*** quizzes.
-
-5. [Quizzes](../apps/quizzes/README.md):
-Old version of the Quiz app.
-
-6. [Remind](../apps/remind/README.md):
+2. [Event Calendar](../apps/event-calendar/README.md): Listing with of all the breathecode events
+3. [/Markdown-Parser](../apps/markdown-parser/README.md): Displays the HTML version of a given markdown file.
+4.. [/NPS](../apps/nps/README.md): Display NPS surveys for BC users.
+5. [/Quiz](../apps/quiz/README.md): Allows BC students to ***take*** quizzes.
+6. [Quiz Maker](../apps/quiz-maker/README.md): Allows BC users to ***CREATE*** quizzes.
+7. [Quizzes](../apps/quizzes/README.md): Old version of the Quiz app.
+8. [Remind](../apps/remind/README.md):
 Manages the signup, login and remind password within the BC platform.
 
     **TODO:** we need to change the name of the folder to "oauth", but we cannot do it until we change all the references to it. 
@@ -141,5 +127,5 @@ SYLLABUS-MAKER:
     "recharts": "^1.0.0-beta.10"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzkwNjc2MTRdfQ==
+eyJoaXN0b3J5IjpbNTYxMjkxMzc4LC0xMzM5MDY3NjE0XX0=
 -->
