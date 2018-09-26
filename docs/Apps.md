@@ -2,8 +2,7 @@
 
 # Table of contents for all the APPS inside assets.breatheco.de
 
-1. [Event Checking](../apps/event-checkin/README.md):
-Use to track when people attends to our events.
+1. [Checking](../apps/checkin/README.md): Use to track when people attends to our events.
 
     **TODO:** This applications is _pending for development_.
     
@@ -145,5 +144,5 @@ SYLLABUS-MAKER:
     "recharts": "^1.0.0-beta.10"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODE3MjEzNDVdfQ==
+eyJoaXN0b3J5IjpbLTcwMzc1NTg2LC0xODgxNzIxMzQ1XX0=
 -->
