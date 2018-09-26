@@ -8,7 +8,7 @@
 4.. [/NPS](../apps/nps/README.md): Display NPS surveys for BC users.
 5. [/Quiz](../apps/quiz/README.md): Allows BC students to ***take*** quizzes.
 6. [Quiz Maker](../apps/quiz-maker/README.md): Allows BC users to ***CREATE*** quizzes.
-7. [Quizzes](../apps/quizzes/README.md): ***DEPRECATED***, Old version of the Quiz app.
+7. [Quizzes](../apps/quizzes/README.md): :small_orange_diamond: ***DEPRECATED***, Old version of the Quiz app.
 8. [Remind](../apps/remind/README.md): Manages the signup, login and remind password within the BC platform. 
 9. [Replit](../apps/replit/README.md): Tracks all the replit classrooms and links for the BC platform.
 10. [Replit Editor](../apps/replit-editor/README.md): Creates and updates the replits links from breathecode cohorts.
@@ -116,6 +116,5 @@ SYLLABUS-MAKER:
     "recharts": "^1.0.0-beta.10"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDg3OTA1ODEsLTEzMzkwNjc2MTRdfQ
-==
+eyJoaXN0b3J5IjpbOTU1OTM0MjM4LC0xMzM5MDY3NjE0XX0=
 -->
