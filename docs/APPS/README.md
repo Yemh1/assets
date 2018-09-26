@@ -24,8 +24,8 @@
 For easy deployment, breathecode has created static bundles that can be reused in several projects:
 1. https://assets.breathecode.com/assets/js/vendor.bundle.js (react.js, font-awesome, flux & bootstrap).
 
-[Learn more about other bundles here.](./common_bundles.md)
+[Learn more about other bundles here.](./bundles.md)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDg1MTg1NTIsMTUwNTA2MTc2LC0xMz
-M5MDY3NjE0XX0=
+eyJoaXN0b3J5IjpbMjA5NDgyNTE0MiwxNTA1MDYxNzYsLTEzMz
+kwNjc2MTRdfQ==
 -->
