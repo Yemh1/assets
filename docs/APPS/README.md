@@ -16,7 +16,7 @@
 12. [Screen](../apps/screen/README.md): Screens for academy events
 
 ### :black_square_button: Apps Pending for development
-- [Contributions](../apps/contributions/README.md): Chatbot app for slack
+- [Contributions](../apps/contributions/README.md): This is basically an aggregator of all the stuff that needs to be completed inside the breathec
 - [Chatbot](../apps/chatbot/README.md): Chatbot app for slack
 - [Status](../apps/status/README.md): Displays a status check of the entire BreatheCode platform.
 - [Student External Profile (SEP)](../apps/sep/README.md): Search and display any student external profile
@@ -27,6 +27,6 @@ For easy deployment, breathecode has created static bundles that can be reused i
 
 [Learn more about other bundles here.](./bundles.md)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMzA2MTk0MSwyMDk0ODI1MTQyLDE1MD
+eyJoaXN0b3J5IjpbLTkyMzY1MjkzMywyMDk0ODI1MTQyLDE1MD
 UwNjE3NiwtMTMzOTA2NzYxNF19
 -->
