@@ -10,7 +10,8 @@ That is why we decided to create a small libraries or bundles to re-use in diffe
 
 React projects have this vendor bundle available for use:
 
-### React.js  File path: https://assets.breathecode.com/assets/js/vendor.bundle.js |
+### React.js v1: 
+URL: https://assets.breathecode.com/assets/js/vendor.bundle.js
  ```
     "@4geeksacademy/react-flux-dash": "^1.1.8",
     "@fortawesome/fontawesome": "^1.1.4",
@@ -33,6 +34,6 @@ React projects have this vendor bundle available for use:
 ``` |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTIxMDI5MzcsLTExNDA4NDcyNjUsLT
+eyJoaXN0b3J5IjpbLTE5MTU2MjIwODQsLTExNDA4NDcyNjUsLT
 EzNDcyMjM1ODJdfQ==
 -->
