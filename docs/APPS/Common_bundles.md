@@ -1,10 +1,15 @@
-# Using common bundles
+# :briefcase: Shared Technology Bundles and Libraries
+
+For easy deployment, breathecode has created static bundles that can be reused in several projects:
+
+
 
 Most of the developments inside the BreatheCode's assets share the same stack of technologies and libraries (React.js, jQuery, etc.). 
 
 That is why we decided to create a small libraries or bundles to re-use in different developments.
 
 React projects have this vendor bundle available for use:
+| File path | 
 https://assets.breathecode.com/assets/js/vendor.bundle.js
  ```
     "@4geeksacademy/react-flux-dash": "^1.1.8",
@@ -28,6 +33,6 @@ https://assets.breathecode.com/assets/js/vendor.bundle.js
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MTcyMjkxLC0xMTQwODQ3MjY1LC0xMz
-Q3MjIzNTgyXX0=
+eyJoaXN0b3J5IjpbLTg5Njc0MDgxNiwtMTE0MDg0NzI2NSwtMT
+M0NzIyMzU4Ml19
 -->
