@@ -15,14 +15,15 @@
 11. [Video](../apps/video/README.md): Manages the signup, login and remind password within the BC platform.
 12. [Screen](../apps/screen/README.md): Screens for academy events
 
-#### :black_square_button: Apps Pending for development
+### :black_square_button: Apps Pending for development
 - [Chatbot](../apps/chatbot/README.md): Chatbot app for slack
 - [Status](../apps/status/README.md): Displays a status check of the entire BreatheCode platform.
 - [Student External Profile (SEP)](../apps/sep/README.md): Search and display any student external profile
 
-### Shared Technology Bundles
+### :briefcase: Shared Technology Bundles
 For easy deployment, breathecode has created static bundles that can be reused in several projects:
 
+#### https://assets.breathecode.com/assets/js/vendor.bundle.js
  ```
  QUIZ APP:
     "@4geeksacademy/react-flux-dash": "^1.1.8",
@@ -106,6 +107,6 @@ SYLLABUS-MAKER:
     "recharts": "^1.0.0-beta.10"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjA0NjU5ODIsLTEzMzkwNjc2MTRdfQ
+eyJoaXN0b3J5IjpbLTExNTQ3MzEyNzQsLTEzMzkwNjc2MTRdfQ
 ==
 -->
