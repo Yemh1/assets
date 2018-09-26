@@ -1,6 +1,8 @@
 # Using common bundles
 
-One of them is sharing a common
+Most of the developments inside the BreatheCode's assets share the same stack of technologies and libraries (React.js, jQuery, etc.). 
+
+That is why we decided to create a small
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMxODUwODk4XX0=
+eyJoaXN0b3J5IjpbLTEzNDcyMjM1ODJdfQ==
 -->
