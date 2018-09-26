@@ -3,7 +3,8 @@
 Most of the developments inside the BreatheCode's assets share the same stack of technologies and libraries (React.js, jQuery, etc.). That is why we decided to create a small libraries or bundles to re-use in different developments.
 
 ## React projects have this vendor bundles available for use:
-##### v1:  https://assets.breathecode.com/assets/js/vendor.bundle.js
+#### Version 1
+URL: https://assets.breathecode.com/assets/js/vendor.bundle.js
 Dependencies:
  ```
     "@4geeksacademy/react-flux-dash": "^1.1.8",
@@ -27,5 +28,5 @@ Dependencies:
 ``` |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMDM5Nzk5MV19
+eyJoaXN0b3J5IjpbLTEyMDQ0ODYzNjldfQ==
 -->
